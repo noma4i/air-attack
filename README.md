@@ -8,12 +8,11 @@ This is simple skinny rails app in (json api only mode) to show how to rate limi
 
 * Return `OK`
 
-### Limitations
+### Limitations & Thoughts
 
 * 100 requests per hour / could be changed
-
 * This is implementations using Redis and is suitable for clustered app.
-* Make sure that you never use rate limit for API using ruby. Go safer way with proper API Gateway solitions.
+* Make sure that you never use rate limit for API using ruby. [Go safer way with proper API Gateway solitions](https://www.nginx.com/blog/microservices-api-gateways-part-1-why-an-api-gateway).
 
 
 ### Requirements
