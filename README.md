@@ -45,7 +45,7 @@ do `bundle exec rspec`
 ## License
 
 Air-Attack is freely distributable under the
-terms of an MIT-style [license](https://github.com/noma4i/air-attack/blob/master/licence.txt).
+terms of an MIT-style [licence](https://github.com/noma4i/air-attack/blob/master/licence.txt).
 
 Copyright notice and permission notice shall be included in all
 copies or substantial portions of the Software.

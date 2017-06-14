@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Rate limit Rule', type: :request, order: :defined do
   let (:rule) { YAML.load_file("#{Rails.root}/config/rate-limit.yml")[Rails.env] }
+
   it 'returns proper not rate-limited response' do
     rule['requests'].times do
       get root_path

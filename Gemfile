@@ -17,6 +17,7 @@ gem 'dotenv'
 
 group :test do
   gem 'rspec-rails', '~> 3.5'
+  gem 'fakeredis'
 end
 
 group :development do

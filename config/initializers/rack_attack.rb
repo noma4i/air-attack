@@ -11,7 +11,7 @@ class Rack::Attack
 
   Rack::Attack.throttled_response = lambda do |env|
     cache_key = env['rack.attack.match_discriminator']
-    REDIS.set(cache_key, Time.now.since(period.to_i), ex: period) unless REDIS.exists(cache_key)
+    REDIS.set(cache_key, Time.now.since(period), ex: period) unless REDIS.exists(cache_key)
 
     time_left = REDIS.ttl(cache_key)
     [ 429, {}, ["Rate limit exceeded. Try again in #{time_left} seconds."]]
