@@ -1,0 +1,13 @@
+default: &default
+  # timeframe for limit
+  timeframe: 3600
+  # requests allowed in a timeframe
+  requests: 100
+  # switch true/false
+  enabled: true
+development:
+  <<: *default
+test:
+  <<: *default
+production:
+  <<: *default

@@ -1,0 +1,75 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  DisplayCopNames: true
+  Exclude:
+    - 'vendor/gems/**/*'
+    - 'vendor/cache/**/*'
+    - 'vendor/bundle/**/*'
+    - 'test/**/*'
+    - 'system/**/*'
+    - 'vendor/ruby/**/*'
+Bundler/OrderedGems:
+  Enabled: false
+ModuleFunction:
+  Enabled: false
+ClassLength:
+  Enabled: false
+MethodLength:
+  Enabled: false
+LineLength:
+  Max: 180
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/SpaceInsideBrackets:
+  Enabled: false
+Style/TrivialAccessors:
+  Enabled: false
+Style/IfInsideElse:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Lint/ParenthesesAsGroupedExpression:
+  Enabled: false
+Style/BlockDelimiters:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/CommentIndentation:
+  Enabled: false
+Style/BlockComments:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+Style/PercentLiteralDelimiters:
+  Enabled: true
+  PreferredDelimiters:
+    '%i': '()'
+    '%I': '()'
+    '%w': '()'
+    '%W': '()'
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: true
+Style/AlignHash:
+  Enabled: true
+Style/HashSyntax:
+  Enabled: true
+Style/SymbolArray:
+  Enabled: true
+Style/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+Style/VariableNumber:
+  EnforcedStyle: normalcase
+Style/GlobalVars:
+  AllowedVariables: [$redis]
