@@ -8,7 +8,6 @@ end
 gem 'rails', '~> 5.1.1'
 gem 'sqlite3'
 gem 'puma', '~> 3.9'
-gem 'redis'
 gem 'redis-rails', '~> 5'
 
 gem 'rack-attack'

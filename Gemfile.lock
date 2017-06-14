@@ -166,7 +166,6 @@ DEPENDENCIES
   puma (~> 3.9)
   rack-attack
   rails (~> 5.1.1)
-  redis
   redis-rails (~> 5)
   rspec-rails (~> 3.5)
   spring
