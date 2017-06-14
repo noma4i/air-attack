@@ -44,7 +44,7 @@ do `bundle exec rspec`
 
 ## Caveats
 
-If you Redis is not running the app will ignore that while frendly notifying about that in a console
+If you Redis is not running the app will ignore that while friendly notifying about that in a console
 ![RED notification](screenshots/dead_redis.png?raw=true)
 
 ## License
