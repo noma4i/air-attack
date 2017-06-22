@@ -6,6 +6,8 @@ This is simple skinny rails app in (json api only mode) to show how to rate limi
 
 ![RED notification](screenshots/challenge_description.png?raw=true)
 
+# Result
+
  ** ASKED TO NOT USE GEMS**
 
 ## Basic
