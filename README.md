@@ -2,6 +2,12 @@
 
 This is simple skinny rails app in (json api only mode) to show how to rate limit requests and test em with rspec.
 
+# Why
+
+![RED notification](screenshots/challenge_description.png?raw=true)
+
+ ** ASKED TO NOT USE GEMS**
+
 ## Basic
 
 ### Functionality
@@ -43,7 +49,7 @@ do `bundle exec rspec`
 
 ## Caveats
 
-If you Redis is not running the app will ignore that while friendly notifying about that in a console
+If you Redis is not up and running the app will ignore that while friendly giving blody r
 ![RED notification](screenshots/dead_redis.png?raw=true)
 
 ## License
