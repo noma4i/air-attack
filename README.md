@@ -6,9 +6,17 @@ This is simple skinny rails app in (json api only mode) to show how to rate limi
 
 ![RED notification](screenshots/challenge_description.png?raw=true)
 
-# Result
+Time between reviews ~10 days.
 
- ** ASKED TO NOT USE GEMS**
+# First attempt
+
+Done with `rack-attack`
+Result: ** ASKED NOT TO USE GEMS **
+
+# Second attempt
+
+Dead simple middleware.
+Result: *pending*
 
 ## Basic
 

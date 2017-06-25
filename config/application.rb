@@ -1,6 +1,8 @@
 require_relative 'boot'
 
 require 'rails'
+# Custom Middleware
+require './lib/rack/rate_limit'
 # Dry up the app
 require 'active_model/railtie'
 # require "active_job/railtie"
@@ -25,7 +27,8 @@ module AirAttack
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
-    config.middleware.use Rack::Attack
+    # Register middleware
+    config.middleware.use Rack::RateLimit
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
